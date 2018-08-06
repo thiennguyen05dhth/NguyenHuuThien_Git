@@ -23,7 +23,11 @@
     <!-- Custom styles for this template-->
     <link href="css/sb-admin.css" rel="stylesheet">
 
-
+    <style>
+      .cen{
+            text-align: center;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -145,10 +149,8 @@
             <i class="fas fa-fw fa-envelope"></i>
             <span>Provice</span></a>
         </li>
-      </ul>
-
+      </ul> 
       <div id="content-wrap per">
-
         <div class="container-fluid">
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
@@ -156,18 +158,32 @@
             </li>
             <li class="breadcrumb-item active">Detail</li>
           </ol>
-          <form action="/action_page.php">
-          	<div class="container">
-				<img src="http://sinhvien.hufi.edu.vn/GetImage.aspx?MSSV=2001140243" alt="Thien" width="200px" height="200px"><br><br>
-	            ID:  <input type="text" name="ID" autofocus="autofocus">
-	           	LastName:  <input type="text" name="LastName" autofocus="autofocus">
-	            FirstName:  <input type="text" name="FirstName" autofocus="autofocus">
-	            Gender:  <input type="text" name="Gender" autofocus="autofocus">
-	            Age:  <input type="text" name="Age" autofocus="autofocus">
-	            Ethnicity:  <input type="text" name="Ethnicity" autofocus="autofocus">
-	            Email:  <input type="email" name="Email" autofocus="autofocus">
-	        </div>
-          </form>
+          <div>
+              <img src="http://sinhvien.hufi.edu.vn/GetImage.aspx?MSSV=2001140243" alt="Thien" width="100%" height="500px"><br><br>
+                  <div class="cen">
+                    ID:  <input type="text" name="ID" autofocus="autofocus"><br>
+                    LastName:  <input type="text" name="LastName" ><br>
+                    FirstName:  <input type="text" name="FirstName"><br>
+                    Gender:  <input type="text" name="Gender"><br>
+                    Age:  <input type="date" name="bday"><br>
+                    Ethnicity:  <input type="text" name="Ethnicity"><br>
+                    Email:  <input type="email" name="Email">
+                  </div>
+          </div>
+          <!-- <div class="">
+            <form action="/action_page.php" >
+                <div class="container">
+                  <img src="http://sinhvien.hufi.edu.vn/GetImage.aspx?MSSV=2001140243" alt="Thien" width="200px" height="200px"><br><br>
+                  ID:  <input type="text" name="ID" autofocus="autofocus"><br>
+                  LastName:  <input type="text" name="LastName" ><br>
+                  FirstName:  <input type="text" name="FirstName"><br>
+                  Gender:  <input type="text" name="Gender"><br>
+                  Age:  <input type="date" name="bday"><br>
+                  Ethnicity:  <input type="text" name="Ethnicity"><br>
+                  Email:  <input type="email" name="Email">
+               </div>
+            </form>x  
+          </div> -->
         </div>
       </div>
     </div>
@@ -191,7 +207,7 @@
         </div>
       </div>
     </div>
-
+    
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
