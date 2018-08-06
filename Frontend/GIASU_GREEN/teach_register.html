@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="description" content="">
+	<meta name="author" content="">
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+        <title>Trung tâm gia sư Tri Thức</title>
+        <!--GOOGLE FONT -->
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+        <!--BOOTSTRAP MAIN STYLES -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+        <!--FONTAWESOME MAIN STYLE -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+        <!--PRETTYPHOTO MAIN STYLE -->
+        <link href="assets/css/prettyPhoto.css" rel="stylesheet" />
+        <!--CUSTOM STYLE -->
+        <link href="assets/css/style.css" rel="stylesheet" />
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+     
+     <!--NAV SECTION -->
+     <header id="header-nav" role="banner">
+      <div id="navbar" class="navbar navbar-default">
+       <div class="navbar-header">
+        <a class="navbar-brand" href="#"><i class="fa fa-home color-blue"></i> GIA SƯ TRI THỨC</a>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+         <span class="sr-only">Toggle navigation</span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </button>
+     </div>
+     <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav flot-nav">
+       <li><a href="#about-sectionchucnang"><i class="fa fa-home color-red"></i> Trang chủ</a></li>
+       <li><a href="#about-section"><i class="fa fa-wrench color-brown"></i> Giới thiệu</a></li>
+       <li><a href="#services-section"><i class="fa fa-check color-green"></i> Các dịch vụ</a></li>
+       <li><a href="#about-sectiondoingu"><i class="fa fa-picture-o color-light-blue"></i> Đội ngũ</a></li>
+       <li><a href="#pricing-section"><i class="fa fa-plane color-blue"></i> Bảng giá</a></li>
+       <li><a href="#contact-section"><i class="fa fa-tint"></i> Liên hệ</a></li>
+     </ul>
+   </div>
+ </div>
+</header>
+<!--END NAV SECTION -->
+<div class="container">
+  <!--START BANNER -->
+  <div class="col-md-12 col-sm-12">
+   <img class="img-responsive margin-top-70"  src="assets/img/banner150.png" alt="">
+ </div>
+</div>
+<!--END BANNER -->
+<!--START CAROUSE-->
+<!---------------------------------------------->
+<!---------------------------------------------->
+
+<div class="container margin-top-10">
+  <div >
+   <h3><i class="fa fa-user small-icons bk-color-brown"></i><strong> Vui lòng điền thông tin chính xác để chúng tôi liên lạc:</strong></h3>
+ </div>
+ <form data-toggle="validator" role="form" accept-charset="utf-8">
+   
+   
+  <div class="row">
+    
+
+    <div class="col-xs-12 col-sm-6 col-md-6">
+     <div class="panel panel-primary">
+      <div class="panel-heading">THÔNG TIN CÁ NHÂN</div>
+      <table class="table table-striped table-responsive table-condensed">
+       <tr><td> Họ và tên:<span class="color-red">(*)</span></td><td><div class="form-group">
+        <input required requiredmsg="Điền vào họ tên"  placeholder="Nhập họ và tên" type="text" class="form-control" id="usr">
+      </div></td></tr>
+
+      <tr><td>Địa chỉ:<span class="color-red">(*)</span></td><td><div class="form-group">
+        <input required requiredmsg="Điền vào địa chỉ" type="text" placeholder="Địa chỉ" class="form-control" id="usr">
+      </div></td></tr>
+      <tr><td>Số điện thoại di động:<span class="color-red">(*)</span></td><td><div class="form-group">
+        <input required requiredmsg="Điền vào số DT di động 10-11 số" minlength="10" maxlength="11" placeholder="Số ĐT đi động" onkeypress="return isNumber(event)" type="text" class="form-control" id="usr">
+      </div></td></tr>
+      <tr><td>Địa chỉ email:</td><td><div class="form-group">
+        <input data-error="Bruh, that email address is invalid" placeholder="Email" type="email" class="form-control" id="usr">
+      </div></td></tr>
+      
+      <tr><td><strong>Giới tính:</strong></td><td><label class="radio-inline"> <input type="radio" name="optradi">Nam</label>
+        <label class="radio-inline">  <input type="radio" name="optradi">Nữ</label></td></tr>
+        
+      </table>
+    </div>
+  </div>
+
+  <div class="col-xs-12 col-sm-6 col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">THÔNG TIN HỌC VẤN</div>
+      <table class="table table-striped table-responsive table-condensed">
+        <tr><td>Trình độ:</td><td><b><div class="form-group">
+          <select class="form-control" id="sel1">
+            <option>Sinh viên năm 1</option>
+            <option>Sinh viên năm 2</option>
+            <option>Sinh viên năm 3</option>
+            <option>Sinh viên năm 4</option>
+            <option>Cao đẳng</option>
+            <option>Đại học</option>
+            <option>Thạc sỹ</option>
+            <option>Bằng cấp khác</option>
+          </select>
+        </div></b></td></tr>
+
+        <tr><td>Tên trường:<span class="color-red">(*)</span></td><td><div class="form-group">
+          <input required requiredmsg="Điền vào tên trường" type="text" class="form-control" id="usr">
+        </div></td></tr>
+        <tr><td>Chuyên nghành:<span class="color-red">(*)</span></td><td><div class="form-group">
+          <input required requiredmsg="Điền vào tên chuyên ngành" type="text" class="form-control" id="usr">
+        </div></td></tr>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+    <div class="panel panel-primary">
+      <div class="panel-heading">THÔNG TIN LỚP NHẬN DẠY</div>
+      <table border="1" class="table table-striped table-responsive table-condensed">
+
+        <tr><td> Dạy lớp:<span class="color-red">(*)</span></td><td>
+          <div class="form-group">
+            <select class="form-control" id="sel1">
+              <option>Mầm non</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+              <option>6</option>
+              <option>7</option>
+              <option>8</option>
+              <option>9</option>
+              <option>10</option>
+              <option>11</option>
+              <option>12</option>
+              <option>Ngoại ngữ</option>
+              <option>Tin học</option>
+              <option>Luyện thi vào lớp 6</option>  
+              <option>Luyện thi vào lớp 10</option>
+
+            </select>
+          </div>
+        </td></tr>
+
+        <tr><td>Môn dạy:<span class="color-red">(*)</span></td><td><div class="form-group">
+          <input required requiredmsg="Điền vào môn dạy" type="text" placeholder="Ví dụ: Toán,Lý..." class="form-control" id="usr">
+        </div></td></tr>
+        <tr><td>Khu vực dạy:<span class="color-red">(*)</span></td><td><div class="form-group">
+          <input required requiredmsg="Điền vào khu vực có thể dạy" placeholder="Quận 1, Gò Vấp..." type="text" class="form-control" id="usr">
+        </div></td></tr>
+        <tr><td>Thời gian dạy:</td><td><div class="form-group">
+          <input placeholder="Ví dụ: T2-T4, T6 Từ 17h-19h..." type="text" class="form-control" id="usr">
+        </div></td></tr>
+        
+        
+
+      </table>
+    </div>
+  </div>
+</div>  
+
+<div class="container">
+  <div class="row">
+   <div class="col-md-8 col-md-offset-2 text-center" >
+    <button type="submit" class="btn btn-primary btn-lg">Gởi thông tin</button>
+  </div>
+</div>
+</div>
+
+</form>
+</div>	
+
+
+<script type="text/javascript">     
+  function isNumber(evt) {
+   evt = (evt) ? evt : window.event;
+   var charCode = (evt.which) ? evt.which : evt.keyCode;
+   if ( (charCode > 31 && charCode < 48) || charCode > 57) {
+    return false;
+  }
+  return true;
+}
+</script>
+
+<!--FOOTER SECTION -->
+<footer id="footer" class="margin-top-10">
+  <div class="row">
+   <div class="col-md-3">
+    <div class="widget">
+     <h4 class="widgetheading">Văn phòng tại Bình Dương</h4>
+     <address>
+      <strong>Nguyễn Minh Cảnh</strong><br>
+      Tỉnh Bình Dương 
+    </address>
+    <p>
+      <i class="icon-phone"></i> 0935020003 <br>
+      <i class="icon-envelope-alt"></i> nguyenminhcanh@domainname.com
+    </p>
+  </div>
+</div>
+<div class="col-md-3">
+  <div class="widget">
+   <h4 class="widgetheading">Văn phòng tại Quận 12</h4>
+   <address>
+    <strong>Moderna company Inc</strong><br>
+    Modernbuilding suite V124, AB 01<br>
+    Someplace 16425 Earth </address>
+    <p>
+     <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+     <i class="icon-envelope-alt"></i> nguyentrongtiencntt@gmail.com
+   </p>
+ </div>
+</div>
+
+<div class="col-md-3">
+ <div class="widget">
+  <h4 class="widgetheading">Văn phòng tại Nha Trang</h4>
+  <address>
+   <strong>Moderna company Inc</strong><br>
+   Modernbuilding suite V124, AB 01<br>
+   Someplace 16425 Earth </address>
+   <p>
+    <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+    <i class="icon-envelope-alt"></i> email@domainname.com
+  </p>
+</div>
+</div>
+<div class="col-md-3">
+  <div class="widget">
+   <h4 class="widgetheading">Văn Phòng tại Quảng Ngãi</h4>
+   <address>
+    <strong>Moderna company Inc</strong><br>
+    Modernbuilding suite V124, AB 01<br>
+    Someplace 16425 Earth </address>
+    <p>
+     <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+     <i class="icon-envelope-alt"></i> email@domainname.com
+   </p>
+ </div>
+</div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+   <div class="widget">
+    <h4 class="widgetheading">Văn phòng tại Bình Dương</h4>
+    <address>
+     <strong>Nguyễn Minh Cảnh</strong><br>
+     Tỉnh Bình Dương 
+   </address>
+   <p>
+     <i class="icon-phone"></i> 0935020003 <br>
+     <i class="icon-envelope-alt"></i> nguyenminhcanh@domainname.com
+   </p>
+ </div>
+</div>
+<div class="col-md-3">
+ <div class="widget">
+  <h4 class="widgetheading">Văn phòng tại Huế</h4>
+  <address>
+   <strong>Moderna company Inc</strong><br>
+   Modernbuilding suite V124, AB 01<br>
+   Someplace 16425 Earth </address>
+   <p>
+    <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+    <i class="icon-envelope-alt"></i> nguyentrongtiencntt@gmail.com
+  </p>
+</div>
+</div>
+
+<div class="col-md-3">
+  <div class="widget">
+   <h4 class="widgetheading">Văn phòng tại Tân Phú</h4>
+   <address>
+    <strong>Moderna company Inc</strong><br>
+    Modernbuilding suite V124, AB 01<br>
+    Someplace 16425 Earth </address>
+    <p>
+     <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+     <i class="icon-envelope-alt"></i> email@domainname.com
+   </p>
+ </div>
+</div>
+<div class="col-md-3">
+ <div class="widget">
+  <h4 class="widgetheading">Văn Phòng tại Đà Nẵng</h4>
+  <address>
+   <strong>Moderna company Inc</strong><br>
+   Modernbuilding suite V124, AB 01<br>
+   Someplace 16425 Earth </address>
+   <p>
+    <i class="icon-phone"></i> (123) 456-7890 - (123) 555-7891 <br>
+    <i class="icon-envelope-alt"></i> email@domainname.com
+  </p>
+</div>
+</div>
+</div>
+</footer>
+
+<!--END FOOTER SECTION -->
+<a href="#" class="scrollup"><i class="fa fa-angle-up active"></i></a>
+<!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
+<!-- CORE JQUERY LIBRARY -->
+<script src="assets/js/jquery.js"></script>
+<!-- BOOTSTRAP SCRIPTS LIBRARY -->
+<script src="assets/js/bootstrap.min.js"></script>
+<!-- PRETTYPHOTO  SCRIPTS  LIBRARY-->
+<script src="assets/js/jquery.prettyPhoto.js"></script>
+<!-- SCROLL REVEL  SCRIPTS  LIBRARY-->
+<script src="assets/js/scrollReveal.js"></script>
+<!-- CUSTOM SCRIPT-->
+<script src="assets/scripts/custom.js"></script>
+</body>
+</html>

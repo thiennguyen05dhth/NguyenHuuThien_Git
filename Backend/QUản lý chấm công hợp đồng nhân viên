@@ -1,0 +1,33 @@
+QUản lý chấm công hợp đồng nhân viên
+quản lý thông tin nhân viên
+quản lý chấm công nhân viên
+	-Quản lý danh mục nhân viên: 
+		+bằng cấp, chứng chỉ:(toeic, ccna,...)(song ngữ)
+			+ID 
+			+Name
+			+Vietnamese name
+			+Vietnamese languege
+			+một nhân viên có thể có 1 or nhiều chứng chỉ
+		+Hồ sơ:
+			+Id
+			+Name
+			+Tick đã nộp hồ sơ và chưa nộp hồ sơ 
+		+Chức vụ:(song ngữ)
+			+Giảng viên, trưởng phòng, phó phòng, nhân viên,...
+			+ quản lý ngôn ngữ VN-END, 1 nhân viên có thể có 1 or nhiều thức vụ
+		+Bằng cấp: (song ngữ),  trung cấp, cao đăng, đại học, thạc sĩ, giáo sĩ, tiến sĩ, kỹ sư
+		+Chuyên ngành: (song ngữ) danh mục các chuyên ngành, có thể không có chuyên ngành(none)
+		+Quản lý dân tộc: 1 nhân viên chỉ có 1 dân tộc
+		+Quản lý nơi cấp thẻ cmnd của nhân viên đó
+		+Danh mục quốc gia
+		+Danh mục tỉnh phải thuộc quốc gia nào
+		+Quản lý thông tin nhân viên(báo lỗi ID trùng):  last name, firstname, Gender, ngày sinh, ID, hình ảnh nhân viên, email
+		__1 nhân viên có thể nộp 1 or nhìu hồ sơ
+		__1 nhân viên có thể có 1 or nhiều chức vụ
+		__1 nhân viên có thể có 1 bằng cấp, lưu bằng cấp cao nhất
+		__1 nhân viên có thể có 1 or nhiều chuyên ngành
+		__1 nhân viên có 1 dt
+		__1 nhân viên có 1 nơi cấp cmnd
+		__1 nhân viên có 1 quốc gia, quốc gia có nhìu nhân viên
+		__
+
