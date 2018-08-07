@@ -84,6 +84,12 @@
             <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">Logout</a>
           </div>
         </li>
+        <div class='frame'>
+          <div class='star'>   
+            <button type="button">Me</button>
+          </div>
+        </div>
+
       </ul>
 
     </nav>
@@ -143,53 +149,55 @@
       <div id="content-wrapper">
 
         <div class="container-fluid">
-
-          <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#">Home</a>
             </li>
             <li class="breadcrumb-item active">Certificate</li>
           </ol>
-
-          <!-- Area Chart Example-->
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fas fa-chart-area"></i>
-              Area Chart Example</div>
-            <div class="card-body">
-              <canvas id="myAreaChart" width="100%" height="30"></canvas>
-            </div>
-            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-          </div>
-
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="card mb-3">
-                <div class="card-header">
-                  <i class="fas fa-chart-bar"></i>
-                  Bar Chart Example</div>
-                <div class="card-body">
-                  <canvas id="myBarChart" width="100%" height="50"></canvas>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+              <i> List certificate</i></div><br>
+              <div class="container-fluid">
+                <button type="button"><a href="AddCer.html">+</a></button>
+                <button type="button">-</button>
               </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mb-3">
-                <div class="card-header">
-                  <i class="fas fa-chart-pie"></i>
-                  Pie Chart Example</div>
-                <div class="card-body">
-                  <canvas id="myPieChart" width="100%" height="100"></canvas>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-              </div>
+            <div class="card-body"></p>
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>IDCer</th>
+                      <th>NameCer</th>
+                      <th>Vietnamese</th>
+                      <th>English</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>IDCer</th>
+                      <th>NameCer</th>
+                      <th>Vietnamese</th>
+                      <th>English</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>Cer201808070001</td>
+                      <td>Anh Văn</td>
+                      <td>Kiểm tra tiếng Anh giao tiếp quốc tế</td>
+                      <td>Test of English for International Communication</td>
+                    </tr>
+                    <tr>
+                      <td>Cer201808070002</td>
+                      <td>Tin Học</td>
+                      <td>Chuyên gia Microsoft Office</td>
+                      <td>Microsoft Office  Specialist </td>
+                    </tr>
+                  </tbody>
+              </table>
             </div>
           </div>
-          <p class="small text-center text-muted my-5">
-            <em>More chart examples coming soon...</em>
-          </p>
         </div>
       </div>
     </div>
