@@ -130,21 +130,23 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" href="Nation.html">
-            <i class="fas fa-fw fa-envelope"></i>
+            <i class="fas fa-fw fa-table"></i>
             <span>Nation</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="IdentityCard.html">
-            <i class="fas fa-fw fa-envelope"></i>
-            <span>Identity Card</span></a>
+          <a class="nav-link" href="IndentityCard.html">
+            <i class="fas fa-fw fa-angle-up"></i>
+            <span>Card Issue Place</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Provice.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Provice</span></a>
         </li>
       </ul>
 
       <div id="content-wrapper">
-
         <div class="container-fluid">
-
-          <!-- Breadcrumbs-->
           <ol class="breadcrumb">
             <li class="breadcrumb-item">
               <a href="#">Home</a>
@@ -155,42 +157,45 @@
           <!-- Area Chart Example-->
           <div class="card mb-3">
             <div class="card-header">
-              <i class="fas fa-chart-area"></i>
-              Area Chart Example</div>
+              <i class="fas fa-envelope"></i>
+              Degree</div>
             <div class="card-body">
-              <canvas id="myAreaChart" width="100%" height="30"></canvas>
-            </div>
-            <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-          </div>
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>IDDegr</th>
+                      <th>NameDegr</th> 
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                       <th>IDDegr</th>
+                      <th>NameDegr</th> 
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    <tr>
+                      <td>IDDegr2018081</td>
+                      <td>Information Technology Engineer</td>
+                    </tr>
+                    <tr>
+                      <td>IDDegr2018082</td>
+                      <td>Financial Accountant</td>
 
-          <div class="row">
-            <div class="col-lg-8">
-              <div class="card mb-3">
-                <div class="card-header">
-                  <i class="fas fa-chart-bar"></i>
-                  Bar Chart Example</div>
-                <div class="card-body">
-                  <canvas id="myBarChart" width="100%" height="50"></canvas>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                    </tr>
+                    <tr>
+                      <td>IDDegr2018083</td>
+                      <td>Business Administration</td>
+                    </tr>
+                    <tr>
+                      <td>IDDegr2018084</td>
+                      <td>Electrical Engineer</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
-            </div>
-            <div class="col-lg-4">
-              <div class="card mb-3">
-                <div class="card-header">
-                  <i class="fas fa-chart-pie"></i>
-                  Pie Chart Example</div>
-                <div class="card-body">
-                  <canvas id="myPieChart" width="100%" height="100"></canvas>
-                </div>
-                <div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
-              </div>
-            </div>
           </div>
-          <p class="small text-center text-muted my-5">
-            <em>More chart examples coming soon...</em>
-          </p>
-        </div>
       </div>
     </div>
     <a class="scroll-to-top rounded" href="#page-top">
